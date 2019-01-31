@@ -105,7 +105,7 @@ public final class IsCacheReserializable<T> extends TypeSafeDiagnosingMatcher<T>
     checkIfBounded(original, copy, desc);
   }
 
-  /* ---------------- Unbounded -------------- */
+  /* --------------- Unbounded --------------- */
 
   @SuppressWarnings("unchecked")
   private static <K, V> void checkIfUnbounded(
@@ -166,7 +166,7 @@ public final class IsCacheReserializable<T> extends TypeSafeDiagnosingMatcher<T>
     }
   }
 
-  /* ---------------- Bounded -------------- */
+  /* --------------- Bounded --------------- */
 
   @SuppressWarnings("unchecked")
   private static <K, V> void checkIfBounded(
